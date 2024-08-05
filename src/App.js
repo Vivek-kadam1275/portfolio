@@ -1,7 +1,6 @@
  import './App.css';
 import About from './components/About';
-import Certificates from './components/Certificates';
-import Navbar from './components/Navbar';
+ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -19,8 +18,7 @@ import { Route } from 'react-router-dom';
     
 
          </Routes>
-         <Footer/>
-    </div>
+     </div>
   );
 }
 

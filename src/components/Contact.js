@@ -1,5 +1,6 @@
 import React from "react"
 import { BsFillCursorFill } from "react-icons/bs";
+import Footer from "./Footer";
 
 const Contact = (props) => {
     function submitHandler(event) {
@@ -27,6 +28,7 @@ const Contact = (props) => {
                     <BsFillCursorFill />
                      </button>
             </form>
+            <Footer/>
 
 
         </div>
