@@ -9,7 +9,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 const Footer = (props) => {
     return (
-        <div className="bg-black pt-14">
+        <div className="bg-black pt-14 mt-20">
             <div className="w-10/12 mx-auto flex flex-col gap-5 ">
                 <div className="text-[#9babab] flex justify-around text-lg">
                     <p className="flex items-center gap-2 "> <IoMdMail /> <span>vk2567298@gmail.com</span></p>
@@ -27,7 +27,7 @@ const Footer = (props) => {
                     </div>
 
                 </div>
-                <p className="flex text-white text-lg items-center justify-center">
+                <p className="flex text-[#9babab] text-lg items-center justify-center">
                     <FaRegCopyright /><span> CopyRight By Vivek Kadam</span>
                 </p>
             </div>
