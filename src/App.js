@@ -9,7 +9,7 @@ import { Route } from 'react-router-dom';
 
  function App() {
   return (
-    <div className="overflow-y-hidden">
+    <div className='overflow-x-hidden'>
       <Navbar />
          <Routes>
           <Route path="/" element={<Home/>}/>
