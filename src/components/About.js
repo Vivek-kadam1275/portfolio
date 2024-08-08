@@ -28,7 +28,7 @@ const About = (props) => {
     ["Personal Portfolio", "Personal Project"]
   ]
   return (
-    <div className="bg-[#000004] pb-4 flex items-center ">
+    <div className="bg-[#000004] pb-4 flex items-center h-[100vh]">
       <div className="flex justify-around items-center w-10/12 min-w-[360px] mx-auto flex-wrap " >
         <img src={vivek} alt="" className=" w-1/2 min-w-[360px] " />
 
