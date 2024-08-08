@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const Home = (props) => {
   return (
 
-    <div className="">
+    <div className=" w-screen">
       
       <div className="relative -z-10   ">
         <div className="absolute -z-20  h-[100vh] ">

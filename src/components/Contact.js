@@ -8,7 +8,7 @@ const Contact = (props) => {
 
      }
     return (
-        <div className="bg-[#e7e7e7] pt-44 ">
+        <div className="bg-[#e7e7e7] pt-44 w-screen ">
 
             <div className="flex flex-col  w-10/12 mx-auto gap-3 ">
                 
