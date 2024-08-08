@@ -9,9 +9,9 @@ const Home = (props) => {
       
       <div className="relative -z-10  ">
         <div className="absolute -z-20   ">
-          <img src={home} alt="home page" loading="lazy" className="h-screen min-h-[200px] min-w-[100px] w-screen" />
+          <img src={home} alt="home page" loading="lazy" className="h-screen w-screen" />
         </div>
-        <div className="flex flex-col  h-screen min-h-[500px] min-w-[500px] justify-center w-10/12 mx-auto gap-3 ">
+        <div className="flex flex-col min-w-[700px] min-h-[400px] justify-center w-10/12 mx-auto gap-3 ">
           <h2 className="text-5xl text-white">Hello, I'm</h2>
           <h1 className="text-6xl font-bold text-white">Vivek Dadasaheb Kadam</h1>
           <TypedDescription />
