@@ -11,7 +11,7 @@ const Home = (props) => {
         <div className="absolute -z-20   ">
           <img src={home} alt="home page" loading="lazy" className="h-screen w-screen" />
         </div>
-        <div className="flex flex-col min-w-[700px] min-h-[400px] justify-center w-10/12 mx-auto gap-3 ">
+        <div className="flex flex-col min-w-[700px] h-screen justify-center w-10/12 mx-auto gap-3  flex-wrap">
           <h2 className="text-5xl text-white">Hello, I'm</h2>
           <h1 className="text-6xl font-bold text-white">Vivek Dadasaheb Kadam</h1>
           <TypedDescription />
