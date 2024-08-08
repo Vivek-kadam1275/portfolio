@@ -7,9 +7,9 @@ const Home = (props) => {
 
     <div>
       
-      <div className="relative -z-10 overflow-y-hidden ">
-        <div className="absolute -z-20 ">
-          <img src={home} alt="home page" loading="lazy" />
+      <div className="relative -z-10  ">
+        <div className="absolute -z-20   ">
+          <img src={home} alt="home page" loading="lazy" className="h-screen w-screen" />
         </div>
         <div className="flex flex-col  h-screen justify-center w-10/12 mx-auto gap-3 ">
           <h2 className="text-5xl text-white">Hello, I'm</h2>

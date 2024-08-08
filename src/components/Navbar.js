@@ -5,7 +5,7 @@ const Navbar = (props) => {
     const navigator = useNavigate();
     return (
         <div className="bg-black fixed top-0 w-full shadow-md">
-            <div className=" flex w-10/12 min-w-[1080px] py-5 mx-auto justify-between px-7">
+            <div className=" flex w-10/12 min-w-[700px]  py-5 mx-auto justify-between px-7 flex-wrap items-center ">
                 <h2 className="font-bold text-2xl text-white cursor-pointer" onClick={() => {
                     navigator('/')
                 }}>PORT<span className="text-[#ff004f]">FOLIO</span></h2>

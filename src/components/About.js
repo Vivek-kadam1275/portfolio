@@ -28,12 +28,12 @@ const About = (props) => {
     ["Personal Portfolio", "Personal Project"]
   ]
   return (
-    <div className="bg-[#000004]">
-      <div className="flex   h-screen justify-around items-center w-10/12 mx-auto " >
+    <div className="bg-[#000004] h-screen w-screen min-w-[700px] flex items-center">
+      <div className="flex justify-around items-center w-10/12 mx-auto flex-wrap " >
         <img src={vivek}  alt="" className=" w-1/2 " />
 
         <div className=" w-1/2 text-white flex flex-col gap-8">
-          <h1 className="text-center text-7xl font-bold">About Me</h1>
+          <h1 className="text-center text-7xl font-bold min-w-1/2">About Me</h1>
           <div className="flex flex-col gap-4">
             <p className="text-[#9babab] text-[18px]">I'm a Information Technology Engineering Student pursuing B.E. at Progressive Education Society's, Modern College of Engineering, Pune. And here is my portfolio website. Here you’ll learn about my journey as a Web developer.
             </p>
