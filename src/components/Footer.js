@@ -9,7 +9,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 const Footer = (props) => {
     return (
-        <div className="bg-black pt-14 pb-5 mt-20">
+        <div className="bg-black pt-14 pb-5 mt-20 fixed bottom-0">
             <div className="w-10/12  mx-auto flex flex-col gap-5 ">
                 <div className="text-[#9babab] flex justify-around  items-center min-w-[700px] text-lg">
                     <p className="flex items-center gap-2 "> <IoMdMail /> <span>vk2567298@gmail.com</span></p>
