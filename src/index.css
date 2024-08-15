@@ -10,6 +10,10 @@
         }    
 }
 @media (max-width:941px){
+    .home-res{
+        width: 950px; 
+        
+    }
     .navbar-res{
         flex-direction: column;
         background-color: gray;
