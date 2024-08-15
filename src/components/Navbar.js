@@ -24,7 +24,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
     
     
     return (
-        <div className="bg-black   w-screen   shadow-md   fixed">
+        <div className="bg-gray-500 w-screen  min-h-[25px] shadow-md   fixed">
             <div className={` flex w-10/12 min-w-[360px] py-5 mx-auto justify-between  px-10  items-center gap-4 navbar-res    ${display ? "flex ":"hidden bg-transparent"} transition-all duration-200`}>
                 <h2 className="font-bold text-2xl text-white cursor-pointer" onClick={() => {
                     navigator('/')
@@ -50,10 +50,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
                     </div>
                 </div>
             </div>
-          <div className="absolute right-2 top-2   gap-1  hidden burger-res cursor-pointer text-white " onClick={burgerHandler}>
+          <div className={`absolute  right-2 top-0 gap-1  hidden burger-res cursor-pointer text-white text-2xl ${display? "top-5" : "top-0"} `} onClick={burgerHandler}>
           <GiHamburgerMenu />
-
-
             </div>            
         </div>
     )

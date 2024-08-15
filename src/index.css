@@ -4,15 +4,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
 
+@media (min-width:942px) {
+        .about-res{
+            height:100vh;
+        }    
+}
 @media (max-width:941px){
     .navbar-res{
         flex-direction: column;
+        background-color: gray;
     }
     .burger-res{
         display: flex;
         flex-direction: column;
         gap:4px;
-        
     }
+    .project-res{
+        width: 100vw;
+        height: 50vw;
+    }
+
+     
     
 }
