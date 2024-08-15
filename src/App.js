@@ -3,7 +3,7 @@ import About from './components/About';
  import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Projects from './components/Projects';
 import { Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
@@ -15,6 +15,7 @@ import { Route } from 'react-router-dom';
           <Route path="/" element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/projects' element={<Projects/>}/>
     
 
          </Routes>
