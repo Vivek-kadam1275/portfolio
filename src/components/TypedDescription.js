@@ -29,7 +29,7 @@ const TypedDescription = (props) => {
     }, []);
   
     return (
-      <div className="text-[#fe1e1e] text-5xl font-semibold ">
+      <div className="text-[#fe1e1e] text-5xl font-semibold home-text-res ">
         a <span ref={el} />
       </div>
     );
