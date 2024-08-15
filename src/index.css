@@ -3,3 +3,16 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
+
+@media (max-width:941px){
+    .navbar-res{
+        flex-direction: column;
+    }
+    .burger-res{
+        display: flex;
+        flex-direction: column;
+        gap:4px;
+        
+    }
+    
+}
