@@ -20,7 +20,10 @@ const Navbar = (props) => {
                         }} className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1">About me</button>
 
                         <button className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1"> <a href={resume} target="_blank" className="border-none p-none">Resume</a></button>
-
+                        
+                        <button className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1" onClick={()=>{
+                            navigator('/projects')
+                        }}>Projects</button>
                         <button onClick={() => {
                             navigator('/contact')
                         }} className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1">Contact me</button>
