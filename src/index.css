@@ -10,9 +10,14 @@
         }    
 }
 @media (max-width:941px){
-    .home-res{
-        width: 950px; 
+    .image-res{
+        width: 1000px;
+        right: 0;
         
+    }
+    .home-text-res{
+        text-align: center;
+        font-size: 30px;
     }
     .navbar-res{
         flex-direction: column;

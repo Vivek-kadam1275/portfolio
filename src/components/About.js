@@ -26,7 +26,7 @@ const About = (props) => {
     ["Pathology Software", "Major Project"],
     ["Blood Bank Management System", "Mini Project"],
     ["Personal Portfolio", "Personal Project"]
-  ]
+  ] 
   return (
     <div className="bg-[#000004] pb-4 flex items-center w-screen about-res    ">
       <div className="flex justify-around items-center w-10/12 min-w-[360px] mx-auto flex-wrap   " >
