@@ -1,6 +1,6 @@
 
 
-const data = [{
+export const CertificatesData = [{
     id: 0,
     name: 'AWS CLOUD ARCHITECTURE BADGE',
     image: "./images/architecture_badge.png",
@@ -84,6 +84,25 @@ const data = [{
 
 }];
 
+export const Skills = [
+    {id:0, title:"Courses",value: "DBMS,Full Stack, Aws Cloud"},
+    {id:1, title:"Languages",value: "Java, SQL, Java Script"},
+    {id:2, title:"Platform",value: "VS Code, IntelliJ, Git, GitHub"}
+  ]
+
+export const Education = [
+    {id:0 , title:"2019" ,value:"10th from Shivanjali Shikshan Sanstha's English Medium School,Nade"},
+    {id:1, title:"2021",value: "12th from Balasaheb Desai College, Patan"},
+    {id:2, title:"2021-present",value: "Pursuing BE in Information Technology at Modern College of Engineering,Pune"}
+     
+  ]
+
+ export const Projects = [
+    {id:0, title:"Pathology Software",value: "Major Project"},
+    {id:1, title:"Blood Bank Management System",value: "Mini Project"},
+    {id:2, title:"Personal Portfolio",value: "Personal Project"},
+  ] 
 
 
-export default data;
+
+ 

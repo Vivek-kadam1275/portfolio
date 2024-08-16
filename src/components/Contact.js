@@ -12,8 +12,8 @@ const Contact = (props) => {
 
             <div className="flex flex-col  w-10/12 mx-auto gap-3 ">
                 
-                    <h1 className="text-7xl text-[#ff0045] font-semibold">Contact Me</h1>
-                    <h2 className="text-[#707692] text-5xl font-semibold">Questions, thoughts, or just want to say hello?</h2>
+                    <h1 className="text-7xl text-[#ff0045] font-semibold contact-res">Contact Me</h1>
+                    <h2 className="text-[#707692] text-5xl font-semibold contact-res">Questions, thoughts, or just want to say hello?</h2>
            
 
               
@@ -24,7 +24,7 @@ const Contact = (props) => {
                     <input type="text" placeholder=" Enter your subject" className="border-[1px] border-black px-4 py-2 text-lg" />
                     <textarea placeholder="Enter your message" className="border-[1px] border-black px-4 py-2 text-lg" rows={10} cols={10}  />
 
-                    <button className="bg-red-500 hover:bg-white hover:text-black  transition-all duration-300 w-1/3 min-w-[200px]  py-2 px-3 text-white text-3xl  flex justify-center items-center gap-4 "><span>Send Message</span>
+                    <button className="bg-red-500 hover:bg-white hover:text-black  transition-all duration-300 w-1/3 min-w-[200px]  py-2 px-3 text-white text-3xl  flex justify-center items-center gap-4  contact-btn-res"><span>Send Message</span>
                     <BsFillCursorFill />
                      </button>
             </form>

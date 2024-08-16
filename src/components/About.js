@@ -1,6 +1,9 @@
 import React, { useState } from "react"
 import vivek from "../assets/vivek.png"
 import Template from "./Template";
+import { Skills } from "../data";
+import { Education } from "../data";
+import { Projects } from "../data";
 const About = (props) => {
   const [about, setAbout] = useState({ Skill: true, Education: false, Project: false });
   function skillhandler() {
@@ -12,28 +15,14 @@ const About = (props) => {
   function projectHandler() {
     setAbout({ Skill: false, Education: false, Project: true })
   }
-  const Skills = [
-    ["Courses", "DBMS,Full Stack, Aws Cloud"],
-    ["Languages", "Java, SQL, Java Script"],
-    ["Platform", "VS Code, IntelliJ, Git, GitHub"]
-  ]
-  const Education = [
-    ["2019", "10th from Shivanjali Shikshan Sanstha's English Medium School,Nade"],
-    ["2021", "12th from Balasaheb Desai College, Patan"],
-    ["2021-present", "Pursuing BE in Information Technology at Modern College of Engineering,Pune"]
-  ]
-  const Projects = [
-    ["Pathology Software", "Major Project"],
-    ["Blood Bank Management System", "Mini Project"],
-    ["Personal Portfolio", "Personal Project"]
-  ] 
-  return (
+  
+  return ( 
     <div className="bg-[#000004] pb-4 flex items-center w-screen about-res    ">
       <div className="flex justify-around items-center w-10/12 min-w-[360px] mx-auto flex-wrap   " >
         <img src={vivek} alt="" className=" w-1/2 min-w-[360px] " />
 
         <div className=" w-1/2 min-w-[360px] text-white flex flex-col gap-8">
-          <h1 className="text-center text-7xl font-bold min-w-1/2">About Me</h1>
+          <h1 className="text-center text-7xl font-bold min-w-1/2 about-title-res">About Me</h1>
           <div className="flex flex-col gap-4">
             <p className="text-[#9babab] text-[18px] w-full text-left">I'm a Information Technology Engineering Student pursuing B.E. at Progressive Education Society's, Modern College of Engineering, Pune. And here is my portfolio website. Here you’ll learn about my journey as a Web developer.
             </p>
@@ -55,19 +44,19 @@ const About = (props) => {
               </div>
               <div >
                 {about.Skill && <div className="flex flex-col gap-2">
-                  {Skills.map((item, index) => (
-                    <Template item={item} key={index} />
+                  {Skills.map((item) => (
+                    <Template item={item} key={item.id} />
                   ))}
                 </div>}
 
                 {about.Education && <div className="flex flex-col gap-2">
-                  {Education.map((item, index) => (
-                    <Template item={item} key={index} />
+                  {Education.map((item ) => (
+                    <Template item={item} key={item.id} />
                   ))}
                 </div>}
                 {about.Project && <div className="flex flex-col gap-2">
-                  {Projects.map((item, index) => (
-                    <Template item={item} key={index} />
+                  {Projects.map((item ) => (
+                    <Template item={item} key={item.id} />
                   ))}
                 </div>}
               </div>

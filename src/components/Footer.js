@@ -17,14 +17,14 @@ const Footer = (props) => {
                     <p className="flex items-center gap-2"><FaPhoneAlt /><span>  +91-7287239379</span>              </p>
                 </div>
                 <div className="flex justify-center items-center gap-6 min-w-[360px] ">
-                    <div className="rounded-full w-12 h-12 bg-[#ff004f] flex items-center justify-center hover:scale-125 transition-all duration-200"><FaLinkedin className="text-4xl  " /></div>
+                    <a href="https://www.linkedin.com/in/vivek-kadam-a1740b232/" target="_blank" rel="noreferrer" className="rounded-full w-12 h-12 bg-[#ff004f] flex items-center justify-center hover:scale-125 transition-all duration-200 footer-icons-bg-res"><FaLinkedin className="text-4xl footer-icons-res"/></a>
 
-                    <div className="rounded-full w-12 h-12 bg-[#ff004f] flex items-center justify-center hover:scale-125 transition-all duration-200">
-                    <FaGithub className="text-4xl  "/>
-                    </div>
-                    <div className="rounded-full w-12 h-12 bg-[#ff004f] flex items-center justify-center hover:scale-125 transition-all duration-200">
-                    <IoLogoInstagram className="text-4xl  "/>
-                    </div>
+                    <a href="https://github.com/vivek-kadam1275" target="_blank" rel="noreferrer" className="rounded-full w-12 h-12 bg-[#ff004f] flex items-center justify-center hover:scale-125 transition-all duration-200 footer-icons-bg-res">
+                    <FaGithub className="text-4xl footer-icons-res "/>
+                    </a>
+                    <a href="https://www.instagram.com/vivek___vk_/" target="_blank" rel="noreferrer" className="rounded-full w-12 h-12 bg-[#ff004f] flex items-center justify-center hover:scale-125 transition-all duration-200 footer-icons-bg-res">
+                    <IoLogoInstagram className="text-4xl footer-icons-res "/>
+                    </a>
 
                 </div>
                 <p className="flex text-[#9babab] text-lg items-center justify-center min-w-[360px]">
