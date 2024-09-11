@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Hiding assets folder and images folder
-src/assets/
+# src/assets/
 
 public/images/
