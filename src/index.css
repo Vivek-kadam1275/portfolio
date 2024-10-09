@@ -5,68 +5,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
 
 @media (min-width:942px) {
-        .about-res{
-            height:100vh;
-        }    
+    .about-res{
+        height:100vh;
+    }    
 }
 @media (max-width:941px){
-    .image-res{
-        width: 1000px;
-        right: 0;
-        
-    }
-    .home-text-res{
-        text-align: center;
-        font-size: 30px;
-    }
-    .navbar-res{
-        flex-direction: column;
-        background-color: gray;
-    }
-    .burger-res{
-        display: flex;
-        flex-direction: column;
-        gap:4px;
-    }
-    .about-title-res{
-        margin-top: 10px;
-        font-size: 40px;
-
-    }
-    .project-res{
-        width: 100vw;
-        height: 50vw;
-    }
-    .certificate-res{
-        /* margin-top: 200px; */
-        padding-top: 60px;
-        width: 100%;
-    }
-    .certificate-bg-res{
-        overflow-x: hidden;
-        padding-top: 0px;
+.image-res{
+    width: 1000px;
+    right: 0;
     
-    }
+}
+.home-text-res{
+    text-align: center;
+    font-size: 30px;
+}
+.navbar-res{
+    flex-direction: column;
+    background-color: gray;
+}
+.burger-res{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+.about-title-res{
+    margin-top: 10px;
+    font-size: 40px;
 
-    .contact-res{
-        font-size: 24px;
-        text-align: center;
-    }
+}
+.project-res{
+    width: 100vw;
+    height: 50vw;
+}
+.certificate-res{
+    /* margin-top: 200px; */
+    padding-top: 60px;
+    width: 100%;
+}
+.certificate-bg-res{
+    overflow-x: hidden;
+    padding-top: 0px;
 
-    .contact-btn-res{
-        margin: 0px auto;
-        font-size: 20px;
-    }
+}
 
-    .footer-icons-bg-res{
-        width: 35px;
-        height: 35px;
-    }
-    .footer-icons-res{
-        font-size: 25px;
-    }
+.contact-res{
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-btn-res{
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.footer-icons-bg-res{
+    width: 35px;
+    height: 35px;
+}
+.footer-icons-res{
+    font-size: 25px;
+}
 
 
-     
-    
+ 
+
 }

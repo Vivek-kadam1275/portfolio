@@ -17,7 +17,7 @@ const About = (props) => {
   }
   
   return ( 
-    <div className="bg-[#000004] pb-4 flex items-center w-screen about-res    ">
+    <div className=" bg-[#181c31] pb-4 flex items-center w-screen about-res    ">
       <div className="flex justify-around items-center w-10/12 min-w-[360px] mx-auto flex-wrap   " >
         <img src={vivek} alt="" className=" w-1/2 min-w-[360px] " />
 
