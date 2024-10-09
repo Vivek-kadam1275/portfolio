@@ -10,14 +10,14 @@ const Projects = (props) => {
                 <p className="text-white font-semibold text-center">PathoCare: Pathology Management System </p>
             </div> */}
             <div className="w-10/12  mx-auto flex gap-y-6 flex-wrap justify-around py-10">
-                <div className="flex flex-col items-center gap-1">
+                {/* <div className="flex flex-col items-center gap-1">
                     <video width="600" height="400" poster="" controls>
                         <source src={Pathocare} type="video/mp4" />
                         Your browser does not support the video tag.
                     
                     </video>
                     <h2 className="text-white text-xl">PathoCare</h2>
-                </div>
+                </div> */}
                 <div className="flex flex-col items-center gap-1">
                     <video width="600" height="400" loadin controls>
                         <source src={ECOMZY} type="video/mp4" />
