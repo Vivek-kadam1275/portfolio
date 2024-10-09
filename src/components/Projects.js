@@ -1,7 +1,7 @@
 import React from "react"
 import weatherNow from '../assets/weatherNow.mp4';
 import ECOMZY from '../assets/ECOMZY.mp4';
-import Pathocare from '../assets/Pathocare.mp4'
+// import Pathocare from '../assets/Pathocare.mp4'
 const Projects = (props) => {
     return (
         <div className="bg-[#181c31] w-screen  pt-20 overflow-y-scroll ">
