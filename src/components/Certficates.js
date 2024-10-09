@@ -16,14 +16,15 @@ const Certificates = (props) => {
     }
     return (
 
-        <div className="bg-[#e7e7e7] w-screen h-screen flex flex-col justify-center items-center gap-4 certificate-bg-res  pt-[40px]">
-
+        <div className="bg-[#181c31] w-screen h-screen flex flex-col justify-center items-center gap-4 certificate-bg-res  pt-[40px]">
+            
             <CertificateCard certificate={CertificatesData[index]} />
-            <button onClick={()=>{
+            
+            <div className="flex justify-center gap-10 text-white">
+                <MdOutlineKeyboardArrowLeft onClick={leftClickHandler} className="text-4xl hover:text-gray-500 " />
+                <button onClick={() => {
                 setIndex(0);
-            }} className="bg-red-500 hover:bg-red-700 hover:text-white px-2 py-1 rounded-md ">Refresh</button>
-            <div className="flex justify-center gap-10">
-                <MdOutlineKeyboardArrowLeft onClick={leftClickHandler} className="text-4xl hover:text-gray-500" />
+            }} className="bg-red-500 hover:bg-red-700 hover:text-white px-2 py-1 rounded-md ">GO TO FIRST</button>
                 <MdOutlineKeyboardArrowRight onClick={rightClickHandler} className="text-4xl hover:text-gray-500" />
             </div>
         </div>

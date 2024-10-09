@@ -25,11 +25,12 @@ import { GiCrossMark } from "react-icons/gi";
     
     
     return (
-        <div className="bg-gray-500 w-screen  min-h-[60px] shadow-md  fixed">
+        <div className="bg-[#181c31] w-screen  min-h-[60px] shadow-md  fixed border-[#181c31] ">
             <div className={` flex w-10/12 min-w-[360px] py-5 mx-auto justify-between  px-10  items-center gap-4 navbar-res    ${display ? "flex ":"hidden bg-transparent"} transition-all duration-200`}>
                 <h2 className="font-bold text-2xl text-white cursor-pointer" onClick={() => {
                     navigator('/')
                 }}>PORT<span className="text-[#ff004f]">FOLIO</span></h2>
+
                 <div>
                     <div className="text-white flex gap-6  items-center text-xl navbar-res">
                         {/* <button onClick={() => {
@@ -38,11 +39,11 @@ import { GiCrossMark } from "react-icons/gi";
 
                         <button onClick={() => {
                             navigator("/about")
-                        }} className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1">About me</button>
+                        }} className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1 ">About me</button>
 
                          <button className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1" onClick={()=>{
                             navigator('/projects')
-                        }}>Videos</button> 
+                        }}>Projects</button> 
 
                         <button className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1" onClick={()=>{
                             navigator('/certficates')
