@@ -33,10 +33,7 @@
     font-size: 40px;
 
 }
-.project-res{
-    width: 100vw;
-    height: 50vw;
-}
+
 .certificate-res{
     /* margin-top: 200px; */
     padding-top: 60px;
@@ -69,4 +66,15 @@
 
  
 
+}
+
+@media (max-width:670px){
+    .project-container-res{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .project-res{
+        width:max-content;
+        
+    }
 }
