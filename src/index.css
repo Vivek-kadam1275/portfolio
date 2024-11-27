@@ -21,7 +21,8 @@
 }
 .navbar-res{
     flex-direction: column;
-    background-color: #2f3b46 ;
+    /* background-color: #2f3b46 ; */
+    background-color: #2a334a ;
 }
 .burger-res{
     display: flex;
