@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import vivek from "../assets/vivek.png"
+// import vivek from "../assets/vivek.png"
 import Template from "./Template";
 import { Skills } from "../data";
 import { Education } from "../data";
@@ -19,7 +19,7 @@ const About = (props) => {
   return ( 
     <div className=" bg-[#181c31] pb-4 flex items-center w-screen about-res    ">
       <div className="flex justify-around items-center w-10/12 min-w-[360px] mx-auto flex-wrap   " >
-        <img src={vivek} alt="" className=" w-1/2 min-w-[360px] " />
+        <img src="https://res.cloudinary.com/dti8wm0fk/image/upload/v1738509678/vk_blazer2_ddejyq.jpg" alt="" className=" w-1/4 rounded-full min-w-[360px] " loading="lazy"/>
 
         <div className=" w-1/2 min-w-[360px] text-white flex flex-col gap-8">
           <h1 className="text-center text-7xl font-bold min-w-1/2 about-title-res">About Me</h1>

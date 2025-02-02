@@ -1,6 +1,5 @@
 import React from "react"
-import weatherNow from '../assets/weatherNow.mp4';
-import ECOMZY from '../assets/ECOMZY.mp4';
+ 
 // import Pathocare from '../assets/Pathocare.mp4'
 const Projects = (props) => {
     return (
@@ -19,7 +18,7 @@ const Projects = (props) => {
                 </div>
                 <div className="flex flex-col items-center gap-1">
                     <video width="560" height="315" className="project-res" controls>
-                        <source src={ECOMZY} type="video/mp4" />
+                        <source src="https://res.cloudinary.com/dti8wm0fk/video/upload/v1738511466/ECOMZY_t6rz9c.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     <h2 className="text-white text-xl">ECOMZY</h2>
@@ -27,7 +26,7 @@ const Projects = (props) => {
 
                 <div className="flex flex-col items-center gap-1">
                     <video width="560" height="315"className="project-res" controls>
-                        <source src={weatherNow} type="video/mp4" />
+                        <source src="https://res.cloudinary.com/dti8wm0fk/video/upload/v1738511534/weatherNow_w4egnf.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     <h2 className="text-white text-xl uppercase">weatherNow</h2>
