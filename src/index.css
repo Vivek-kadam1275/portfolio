@@ -4,78 +4,92 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
 
-@media (min-width:942px) {
-    .about-res{
-        height:100vh;
-    }    
+@media (min-width:795px) {
+    .about-res {
+        height: 100vh;
+    }
 }
-@media (max-width:941px){
-.image-res{
-    width: 1000px;
-    right: 0;
-    
-}
-.home-text-res{
-    text-align: center;
-    font-size: 30px;
-}
-.navbar-res{
-    flex-direction: column;
-    /* background-color: #2f3b46 ; */
-    background-color: #2a334a ;
-}
-.burger-res{
-    display: flex;
-    flex-direction: column;
-    gap:4px;
-}
-.about-title-res{
-    margin-top: 10px;
-    font-size: 40px;
+
+@media (max-width:941px) {
+    .image-res {
+        width: 1000px;
+        right: 0;
+
+    }
+
+    .home-text-res {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .navbar-res {
+        flex-direction: column;
+        /* background-color: #2f3b46 ; */
+        background-color: #2a334a;
+    }
+
+    .burger-res {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .about-title-res {
+        margin-top: 10px;
+        font-size: 40px;
+
+    }
+
+    .certificate-res {
+        /* margin-top: 200px; */
+        padding-top: 60px;
+        width: 100%;
+    }
+
+    .certificate-bg-res {
+        overflow-x: hidden;
+        padding-top: 0px;
+
+    }
+
+    .contact-res {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-btn-res {
+        margin: 0px auto;
+        font-size: 20px;
+    }
+
+    .footer-icons-bg-res {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-icons-res {
+        font-size: 25px;
+    }
+
+
+
 
 }
 
-.certificate-res{
-    /* margin-top: 200px; */
-    padding-top: 60px;
-    width: 100%;
-}
-.certificate-bg-res{
-    overflow-x: hidden;
-    padding-top: 0px;
-
-}
-
-.contact-res{
-    font-size: 24px;
-    text-align: center;
-}
-
-.contact-btn-res{
-    margin: 0px auto;
-    font-size: 20px;
-}
-
-.footer-icons-bg-res{
-    width: 35px;
-    height: 35px;
-}
-.footer-icons-res{
-    font-size: 25px;
-}
-
-
- 
-
-}
-
-@media (max-width:670px){
-    .project-container-res{
+@media (max-width:670px) {
+    .project-container-res {
         margin-left: 0;
         margin-right: 0;
     }
-    .project-res{
-        width:max-content;
-        
+
+    .project-res {
+        width: max-content;
+
+    }
+}
+
+@media (max-width:863px) {
+    .about-image-res{
+        margin-top: 60px;
     }
 }

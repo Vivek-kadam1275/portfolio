@@ -15,11 +15,11 @@ const About = (props) => {
   function projectHandler() {
     setAbout({ Skill: false, Education: false, Project: true })
   }
-  
-  return ( 
+
+  return (
     <div className=" bg-[#181c31] pb-4 flex items-center w-screen about-res    ">
       <div className="flex justify-around items-center w-10/12 min-w-[360px] mx-auto flex-wrap   " >
-        <img src="https://res.cloudinary.com/dti8wm0fk/image/upload/v1738509678/vk_blazer2_ddejyq.jpg" alt="" className=" w-1/4 rounded-full min-w-[360px] " loading="lazy"/>
+        <img src="https://res.cloudinary.com/dti8wm0fk/image/upload/v1738509678/vk_blazer2_ddejyq.jpg" alt="https://res.cloudinary.com/dti8wm0fk/image/upload/v1738509678/vk_blazer2_ddejyq.jpg" className=" w-1/4 rounded-full min-w-[300px] about-image-res " loading="lazy" />
 
         <div className=" w-1/2 min-w-[360px] text-white flex flex-col gap-8">
           <h1 className="text-center text-7xl font-bold min-w-1/2 about-title-res">About Me</h1>
@@ -50,12 +50,12 @@ const About = (props) => {
                 </div>}
 
                 {about.Education && <div className="flex flex-col gap-2">
-                  {Education.map((item ) => (
+                  {Education.map((item) => (
                     <Template item={item} key={item.id} />
                   ))}
                 </div>}
                 {about.Project && <div className="flex flex-col gap-2">
-                  {Projects.map((item ) => (
+                  {Projects.map((item) => (
                     <Template item={item} key={item.id} />
                   ))}
                 </div>}
