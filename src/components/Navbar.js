@@ -49,7 +49,7 @@ import { GiCrossMark } from "react-icons/gi";
                             navigator('/certficates')
                         }}>Certificates</button>
 
-                        <button className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1"> <a href={resume} target="_blank" rel="noreferrer" className="border-none p-none">Resume</a></button>
+                        <button className="hover:bg-red-500 hover:text-black rounded-md px-2 py-1"> <a href={resume}  rel="noreferrer" className="border-none p-none">Resume</a></button>
                         
                         
                         <button onClick={() => {
