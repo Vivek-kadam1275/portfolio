@@ -14,7 +14,7 @@ const Footer = (props) => {
                 <div className="text-[#9babab] flex justify-around  items-center min-w-[360px] flex-wrap text-lg">
                     <p className="flex items-center gap-2 "> <IoMdMail /> <span>vk2567298@gmail.com</span></p>
                     <p className="flex items-center gap-2"><FaRegAddressCard /><span>Patan,Maharashtra-415205</span>                </p>
-                    <p className="flex items-center gap-2"><FaPhoneAlt /><span>  +91-7287239379</span>              </p>
+                    <p className="flex items-center gap-2"><FaPhoneAlt /><span>  +91-7387239379</span>              </p>
                 </div>
                 <div className="flex justify-center items-center gap-6 min-w-[360px] ">
                     <a href="https://www.linkedin.com/in/vivek-kadam-a1740b232/" target="_blank" rel="noreferrer" className="rounded-full w-12 h-12 bg-[#ff004f] flex items-center justify-center hover:scale-125 transition-all duration-200 footer-icons-bg-res"><FaLinkedin className="text-4xl footer-icons-res"/></a>
